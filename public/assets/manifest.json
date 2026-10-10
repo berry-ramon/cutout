@@ -1,0 +1,80 @@
+{
+  "name": "Cutout - Private AI Background Remover",
+  "short_name": "Cutout",
+  "description": "Remove backgrounds from images using AI, entirely in your browser. No uploads, no API keys, no tracking.",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#FAF7F2",
+  "theme_color": "#A91E8A",
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": ["photo", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-mobile.png",
+      "sizes": "358x801",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cutout on mobile - upload and remove a background in seconds"
+    },
+    {
+      "src": "/assets/screenshot-desktop.png",
+      "sizes": "1920x961",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Cutout on desktop - full editor with edge refinement and export options"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Remove a background",
+      "short_name": "New cutout",
+      "description": "Upload an image and remove its background",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/assets/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

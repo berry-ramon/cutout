@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes"
+    />
+
+    <!-- =========================================================
+         PRIMARY SEO
+         ========================================================= -->
+    <title>Cutout - Private AI Background Remover</title>
+    <meta
+      name="description"
+      content="Remove backgrounds from images using AI - entirely in your browser. No uploads, no API keys, no tracking. Export clean cutouts with transparent, solid, or custom backgrounds."
+    />
+    <meta
+      name="keywords"
+      content="background remover, remove background, AI background removal, transparent PNG maker, cutout tool, image background removal, client-side AI, private background remover, remove bg"
+    />
+    <meta name="author" content="Brandon Kimathi" />
+    <meta name="application-name" content="Cutout" />
+    <meta name="generator" content="Vite + React" />
+
+    <!-- Personal tool - kept out of search engines -->
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <meta name="googlebot" content="noindex, nofollow" />
+
+    <!-- =========================================================
+         THEME
+         ========================================================= -->
+    <meta name="theme-color" content="#A91E8A" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- =========================================================
+         MOBILE / PWA
+         ========================================================= -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Cutout" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- =========================================================
+         DISCOVERY
+         ========================================================= -->
+    <link rel="manifest" href="/assets/manifest.json" />
+    <link rel="author" href="/assets/humans.txt" />
+    <link rel="canonical" href="https://cutout.brandonkimathi.top/" />
+    <meta name="msapplication-config" content="/assets/browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="#A91E8A" />
+    <meta name="msapplication-TileImage" content="/assets/mstile-150x150.png" />
+
+    <!-- =========================================================
+         FAVICONS & APP ICONS
+         ========================================================= -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="48x48"
+      href="/assets/favicon-48x48.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/favicon-96x96.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/apple-touch-icon.png"
+    />
+
+    <!-- =========================================================
+         OPEN GRAPH / SOCIAL SHARING
+         ========================================================= -->
+    <meta property="og:locale" content="en_KE" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Cutout - Private AI Background Remover"
+    />
+    <meta
+      property="og:description"
+      content="Remove backgrounds from images using AI - entirely in your browser. No uploads, no API keys, no tracking."
+    />
+    <meta property="og:url" content="https://cutout.brandonkimathi.top/" />
+    <meta property="og:site_name" content="Cutout" />
+    <meta
+      property="og:image"
+      content="https://cutout.brandonkimathi.top/assets/icon-512x512.png"
+    />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:type" content="image/png" />
+
+    <!-- =========================================================
+         TWITTER CARD
+         ========================================================= -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Cutout - Private AI Background Remover"
+    />
+    <meta
+      name="twitter:description"
+      content="Client-side AI background removal. No uploads, no API keys, no tracking."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cutout.brandonkimathi.top/assets/icon-512x512.png"
+    />
+    <meta name="twitter:creator" content="@brandonkimathi" />
+
+    <!-- =========================================================
+         PRECONNECT / PREFETCH (performance)
+         ========================================================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+    <link rel="dns-prefetch" href="https://huggingface.co" />
+
+    <!-- =========================================================
+         FONTS
+         ========================================================= -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- =========================================================
+         STRUCTURED DATA (JSON-LD)
+         ========================================================= -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Cutout",
+        "alternateName": "Cutout - Private AI Background Remover",
+        "description": "A fully client-side AI background remover. Upload an image, remove its background using an in-browser segmentation model, and export as transparent PNG, solid colour, or custom background. Nothing leaves your browser.",
+        "url": "https://cutout.brandonkimathi.top",
+        "applicationCategory": "DesignApplication",
+        "applicationSubCategory": "Image Editing",
+        "operatingSystem": "Any (Web)",
+        "browserRequirements": "Requires JavaScript and WebAssembly. Chrome, Edge, Firefox, or Safari 16+.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "creator": {
+          "@type": "Person",
+          "name": "Brandon Kimathi",
+          "url": "https://brandonkimathi.top"
+        },
+        "featureList": [
+          "AI background removal in the browser",
+          "Transparent, solid, custom, and blurred backgrounds",
+          "Edge refinement controls",
+          "Batch processing with ZIP export",
+          "PNG, JPG, and WEBP output",
+          "Works entirely offline after first use",
+          "No uploads, no tracking, no API keys"
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DSbVNIMF.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-jA0q7VpU.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
